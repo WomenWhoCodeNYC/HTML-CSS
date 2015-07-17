@@ -1,5 +1,4 @@
-learn-html-css
-==============
+#WWW HTML/CSS Workshop
 
 Women Who Code NYC HTML/CSS Workshop
 
