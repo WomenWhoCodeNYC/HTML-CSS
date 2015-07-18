@@ -1,60 +1,65 @@
 body {
 	font-family: sans-serif;
-	margin: 0;
 	color: #333;
+	margin: 0px;
 }
-
-h1,
-h2 {
-  font-family: Bitter, sans-serif;
-}
-
-h1 {
-  color: white;
-  font-size: 48px;
-  margin-bottom: 0;
-}
-
-p, ul, ol {
-	line-height: 1.5;
-}
-
-a {
-  color: #38A88F;
-}
-
 header {
 	text-align: center;
-	background: pink;
 	background: url(images/background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-}
 
+}
 header img {
-	border-radius: 50%;
 	border: 3px solid #fff;
+	border-radius: 50%;
 	padding: 10px;
 }
-
-.padded {
-	padding: 50px 100px;
+a {
+	color: #339988;
 }
-
+h1 {
+	color: #ffffff;
+	font-size: 48px;
+}
+h1, h2 {
+  font-family: "Bitter", sans-serif;
+}
+p, ul, ol {
+	line-height: 1.5;
+}
 #about {
 	background: #FFCA59;
 }
-
+.links h2 {
+	color: #FF572B;
+}
+.stacked {
+	padding: 50px 100px;
+}
+.contact {
+    text-align: center;
+    color: #FFF;
+    background: url(images/dark_embroidery.png);
+}
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	border: none;
+}
+.contact img:hover {
+	opacity: 0.5;
+}
 ul.websites {
-	padding: 0;
-	margin-bottom: 1em;
+    padding: 0;
 }
 
 ul.websites li {
-	list-style: none;
-	display: inline-block;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 5px;
 }
-
 .websites a {
 	background: #38A88F;
 	padding: 10px 20px;
@@ -67,28 +72,4 @@ ul.websites li {
 
 .websites a:hover {
 	background: #666;
-}
-
-.links h2 {
-	color: #FF572B;
-}
-
-.contact {
-	background: #666;
-	text-align: center;
-	background: url(images/dark_embroidery.png);
-}
-
-.contact h2 {
-	color: white;
-}
-
-.contact img {
-	border-radius: 50%;
-	width: 100px;
-	margin: 10px;
-}
-
-.contact img:hover {
-	opacity: .5;
 }
